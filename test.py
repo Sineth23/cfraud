@@ -10,7 +10,7 @@ import helper as hp
 
 
 # loading the trained model
-pickle_in = open('classifier.pkl', 'rb') 
+pickle_in = open('rf_model.pkl', 'rb') 
 classifier = pickle.load(pickle_in)
 
 tr = pd.read_csv('uni.csv')
