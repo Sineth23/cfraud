@@ -45,7 +45,7 @@ def main():
     id_19 = st.selectbox('id_19',(device['id_19']))
     id_20 = st.selectbox('id_20',(device['id_20']))
     DeviceInfo = st.selectbox('DeviceInfo',(device['DeviceInfo']))
-    DeviceInfo = device[DeviceInfo]
+    DeviceInfo = device['device'][DeviceInfo]
 
     TransactionAmt = st.number_input("TransactionAmt") 
 
