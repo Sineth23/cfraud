@@ -40,7 +40,7 @@ def main():
     # following lines create boxes in which user can enter data required to make prediction 
 
     id_02 = st.selectbox('id_02',(device['id_02']))
-    id_17 = st.selectbox('id_17',(device['id_17'))
+    id_17 = st.selectbox('id_17',(device['id_17']))
 
     id_19 = st.selectbox('id_19',(device['id_19']))
     id_20 = st.selectbox('id_20',(device['id_20']))
