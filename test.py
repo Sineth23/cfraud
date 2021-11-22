@@ -43,7 +43,7 @@ def main():
     id_17 = st.selectbox('id_17',(device['id_17'))
 
     id_19 = st.selectbox('id_19',(device['id_19']))
-    id_20 = st.selectbox('id_20',(device.['id_20']))
+    id_20 = st.selectbox('id_20',(device['id_20']))
     DeviceInfo = st.selectbox('DeviceInfo',(device['DeviceInfo']))
     DeviceInfo = device[DeviceInfo]
 
