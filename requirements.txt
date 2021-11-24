@@ -1,6 +1,6 @@
 streamlit==1.1.0
 pandas==1.2.0
 numpy==1.19.5
-scikit-learn==1.22.1
+scikit-learn==0.22.1
 sklearn==0.0
 scipy==1.1.0
