@@ -73,7 +73,8 @@ def main():
             pred = "Not Fraud"
             st.write('{}'.format(pred))
 
-
+print('hello world')
+print('hello world')
      
 if __name__=='__main__': 
     main()
